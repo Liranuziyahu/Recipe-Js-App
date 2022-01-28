@@ -1,0 +1,164 @@
+
+header
+{
+    background-image: url("http://static1.squarespace.com/static/5676fa5f57eb8de4eb39a34c/t/5fea5a542cab9a5ffd242fa8/1609194072215/locanda-verde-food-dinner-plates-overhead-family-style.jpg?format=1500w");
+    height: 41vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#warp_header{
+    display: flex;
+    margin-left: calc(50% - 405px);}
+
+#style_title{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    left: calc(50% - 486px);
+    background-size: cover;
+}
+
+#tile_project{
+    position: absolute;
+    text-align: center;
+    top: 41%;
+    left: 8%;
+    color: white;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.75px black;
+    font-size: 3.4rem;
+    
+}
+h1 span {
+    margin-left: 134px;
+}
+/* Button Search */
+#barSeacrch{
+    position: absolute;
+    background: #fff;
+    display: flex;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    height: 39px;
+    width: 690px;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    font-size: 2rem;
+    cursor:pointer;
+    outline-width: 0;
+    bottom: 0;
+    left: calc(50% - 345px);
+}
+#search{
+    border: none;
+    font-family: inherit;
+    
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    width: 100%;
+    margin-left: 31px;
+}
+#btn_search{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 4px;
+    top: -3px;
+    background-color: transparent;
+    border: none;
+}
+#category_search{
+    width: 160px;
+    font-size: 1.5rem;
+    border: none;
+    border-left: 1px solid black;
+    padding-left: 13px;
+    padding-right: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+#no_result{
+    position: absolute;
+    font-size: 2rem;
+    color: red;
+    top: 50px;
+    left: 253px;
+}
+#favorite_style{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 13%;
+    margin-left: 5px;
+    margin-top: -24px;
+}
+#favorite_title{
+    color: white;
+    margin-left: 33px;
+    
+}
+#favorite{
+    max-height: 500px;
+    float: left;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+#favorite > .card 
+{
+
+    margin-top: 13px;
+}
+#section_recipes{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: bisque;
+}
+#list_recipe{
+    display: flex;
+    width: 71%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 178px;
+    margin-top: 45px;
+}
+#list_recipe .card:hover
+{
+    margin-top: -30px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.btn-primary{
+    position: absolute;
+    top: 0px;
+    margin-top: -12px;
+}
+footer{
+    background-color: bisque;
+    height: 10vh;
+}
+#footer_style
+{
+    position: relative;
+}
+#creator
+{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    font-weight: 700;
+}
+.navbar .navbar-dark .bg-primary
+{
+display: flex;
+}
+

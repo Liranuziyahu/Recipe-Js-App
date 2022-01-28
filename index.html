@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60c91adead.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <title>RecipeW</title>
+</head>
+<header>
+
+    <div id="warp_header"> 
+        <div id="style_title">
+            <h1 id="tile_project">Wellcome to<span> <br>Recipe World</span></h1>
+            <section id="barSeacrch">
+                <button id="btn_search" onclick= "userSearch()" type="submit"><i class="fas fa-search"></i></button>
+                <input id="search" type="text">
+                <select  id="category_search" onclick= "userSearch()">
+                    <option value="Category">Category</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Rice">Rice</option>
+                    <option value="Chicken ">Chicken </option>
+                </select>
+                <div id="no_result"></div>
+            </section>
+        </div>
+   
+    </div>
+</header>
+<body >
+    <section id="section_recipes">
+
+        <div id="favorite_style">
+            <h5 id="favorite_title">Your Favorite Site</h5>
+            <div id="favorite"></div>
+        </div>
+     
+        <div id="list_recipe"></div>      
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+<footer id="footer_style">
+
+    <div id="creator"> <span>&#169;</span>
+ LiranUz</div>
+</footer>
+</html>
